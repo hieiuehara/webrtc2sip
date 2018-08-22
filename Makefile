@@ -23,7 +23,7 @@ configure-webrtc:
 	cd ..
 
 install:
-	sudo apt-get install git pkg-config libogg-dev make openssl libssl1.0-dev libsrtp0-dev libspeexdsp-dev libvpx-dev liggsm1-dev build-essential autoconf libtool subversion cvs wget
+	sudo apt-get install git pkg-config make openssl libssl1.0-dev libsrtp0-dev libspeexdsp-dev libvpx-dev build-essential autoconf libtool subversion cvs wget
 	make configure-libsrtp
 	make configure-duobango
 	make configure-webrtc2sip
